@@ -1,0 +1,176 @@
+body{
+  background-color: #F2EEE5;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+.vertical-text{
+  writing-mode: vertical-rl;
+  color: black;
+}
+
+.vertical-text:hover{
+  color: grey;
+}
+
+#title-section{
+  background-image: url("images/bg-1.png"), url("images/bg-2.png");
+  background-size: 30%, 50%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: top;
+  background-position: left, right;
+  margin-bottom: 4%;
+
+}
+
+.navbar-brand{
+margin-left: 0;
+}
+
+.form-control{
+  background-color: transparent;
+}
+
+.btn-outline-success{
+  background-color: transparent;
+}
+
+.container{
+  margin-right: 0;
+}
+
+.col-md-5{
+  text-align: right;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 5%;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Saira', sans-serif;
+  font-weight: bolder;
+  margin-bottom: 2%;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.discover, .best-seller, .laptops{
+  margin: 4%;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+.items{
+  text-align:center;
+}
+
+.card{
+  background-color: transparent;
+  border: none;
+text-align: center;
+
+}
+
+.best-head{
+  text-align: right;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 4%;
+}
+
+.left{
+  text-align: left;
+  margin-left: auto;
+}
+
+.card-img-top{
+    height: 35vh;
+}
+
+.best-img{
+
+object-fit:cover;
+
+}
+
+.explore{
+  font-weight: bold;
+}
+
+.one:hover{
+  color: #FFAAA7;
+}
+
+.two:hover{
+  color: #BDD2B6;
+}
+
+
+.three:hover{
+  color: #A3DDCB;
+}
+
+
+.left-img{
+  text-align: right;
+}
+
+.onebg{
+  background-image: url("images/laptops1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* object-fit: contain; */
+  margin-bottom: 4%;
+}
+
+.twobg{
+  background-image: url("images/laptops2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* object-fit: contain; */
+  margin-bottom: 4%;
+background-position: right;
+}
+
+.footer{
+  background-color: black;
+  color: #F2EEE5;
+  padding: 3%;
+}
+
+
+.footer-right{
+  text-align: right;
+}
+
+.copyright{
+  text-align: center;
+  font-size: 0.5rem
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+
+#title-section{
+  background-image: url("images/bg-1.png");
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-position: left;
+  margin-bottom: 4%;
+}
+
+.col-10{
+  text-align: center;
+}
+
+.best-head{
+  padding-right: 5%;
+}
+
+}
